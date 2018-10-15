@@ -1,0 +1,11 @@
+src/NeuralNetwork.py
+src/DataManager.py
+Lib/
+Include/
+.vscode/
+Scripts
+tcl
+bin
+*.h5
+test.py
+*.pyc
