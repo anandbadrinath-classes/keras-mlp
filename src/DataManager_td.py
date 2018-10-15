@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 import numpy as np
+import pickle
 
 class DataManager(object):
 
@@ -9,8 +10,11 @@ class DataManager(object):
         self.eval_labels = None
         self.loadData()
 
-    def loadData(self):
-        (trd, trl), (ted, tel) = mnist.load_data()
+    def loadData(self, fromPkl=False):
+        if fromPkl:
+            (trd, trl), (ted, tel) = pickle.load(open("mnist.pkl", "rb"))
+        else:
+            (trd, trl), (ted, tel) = mnist.load_data()
         self.train_data = trd
         self.train_labels = trl
         self.test_data = ted
