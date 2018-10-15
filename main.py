@@ -130,10 +130,10 @@ def testOutputLayer(numberOfNeurons):
     return outstring
 
 def exercise4():
-    print (testHiddenLayer(1))
-    print (testHiddenLayer(10))
-    print (testHiddenLayer(20))
-    print (testHiddenLayer(40))
+    print (testOutputLayer(1))
+    print (testOutputLayer(10))
+    print (testOutputLayer(20))
+    print (testOutputLayer(40))
 
 def exercise5():
     dm = DataManager()
