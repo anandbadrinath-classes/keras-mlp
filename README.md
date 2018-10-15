@@ -1,7 +1,7 @@
 # Perceptron
 
 ## Prerequisites
-[Python3.5 64 bit](https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe)
+[Python3.5 64 bit](https://www.python.org/downloads)
 
 ## Installing
 
