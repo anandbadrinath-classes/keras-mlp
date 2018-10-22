@@ -9,3 +9,4 @@ bin
 *.h5
 test.py
 *.pyc
+testSet.pkl
